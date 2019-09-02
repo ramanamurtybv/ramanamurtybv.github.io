@@ -39,6 +39,15 @@ body, html {
   Color:white;
 }
 
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('aircraft-min.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .bg {
   /* The image used */
   background-image: url("aircraft-min.png");
@@ -54,9 +63,29 @@ body, html {
 </style>
 </head>
 <body>
-<div class="bg"></div>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<!--<div class="bg"></div>-->
+
+<!-- Full Page Image Header with Vertically Centered Content -->
+<header class="masthead">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-12 text-center">
+        <h1 class="font-weight-light" style="color:white;">Victor Aerospace</h1>
+        <p class="lead"><a  style="color:white;" href="mailto:ananth@victoraerospace.com?cc=bvr@victoraerospace.com">Contact us</a></p>
+      </div>
+    </div>
+  </div>
+<!--</header>
 <div class="centered">Victor Aerospace</div>
-<div class="centeredb">Stay tuned for updates.</div>
-<a class="rcentered" href="mailto:ananth@victoraerospace.com?cc=bvr@victoraerospace.com">Contact us</a>
+<div class="centeredb">Stay tuned for updates.</div>-->
+
 </body>
 </html>
